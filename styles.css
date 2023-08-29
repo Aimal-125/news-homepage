@@ -245,18 +245,19 @@
 	}
 	.div4 {
 		grid-column: 1 / span 1;
-		grid-row: 17 / span 17;
+		grid-row: initial;
 	}
 	.div3 {
-		grid-row: 14;
+		grid-row: initial;
+		grid-row-start: 2;
 		grid-column: 1 / span 1;
 	}
 	.div2 {
-		grid-row: 15;
+		grid-row: initial;
 		grid-column: 1 / span 1;
 	}
 	.div1 {
-		grid-row: 1 / span 13;
+		grid-row: initial;
 		grid-column: 1 / span 1;
 		background: url(assets/images/image-web-3-mobile.jpg) no-repeat center;
 		background-size: cover;
