@@ -118,6 +118,7 @@
 }
 .gridContainer2 {
 	display: flex;
+	padding-top: 2vh;
 	padding-bottom: 2vh;
 	gap: 2vh;
 }
@@ -266,11 +267,8 @@
 		display: none;
 	}
 	.gridContainer2 {
-		display: grid;
-		grid-template-rows: auto auto auto;
-		grid-template-columns: auto;
+		flex-direction: column;
 		padding: 3vh;
-		grid-gap: 2vh;
 	}
 	.num {
 		padding-bottom: 1vh;
