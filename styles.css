@@ -241,6 +241,7 @@
 	}
 	.gridContainer {
 		display: grid;
+		grid-template-rows: initial;
 		grid-template-columns: auto;
 		padding: 3vh;
 	}
